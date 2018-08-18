@@ -19,17 +19,6 @@ def run_guessing_game
     else
       puts "The computer guessed #{random}."
     end 
-  
-=begin    case input
-      when "exit"
-        puts "Goodbye!"
-        break
-      when random
-        puts "You guessed the correct numbr!"
-      else
-        puts "The computer guessed #{random}"
-    end
-=end
     
   end 
   
