@@ -13,12 +13,14 @@ def run_guessing_game
     
     # Compare the user's number to the random number
     
-    if random == input
+    case random == input
       puts "You guessed the correct numbr!"
     elsif 
     
     # If the number as been guessed correctly, print correct
     # If not, print the computer's answer
     # If exit was the input, exit the program
+    
+  end 
   
 end
