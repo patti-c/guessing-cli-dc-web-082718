@@ -15,7 +15,7 @@ def run_guessing_game
       when "exit"
         puts "Goodbye!"
         break
-      when input.to_i == random
+      when random
         puts "You guessed the correct numbr!"
       else
         puts "The computer guessed #{random}"
