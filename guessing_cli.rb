@@ -9,12 +9,12 @@ def run_guessing_game
     # Take input from the command line
     
     puts "Guess a number between 1 and 6"
-    input = gets.chomp.to_i
+    input = gets.chomp
     
     case input
       when "exit"
         break
-      when random == input
+      when random == input.to_i
         puts "You guessed the correct numbr!"
       else
         puts "The computer guessed #{random}"
