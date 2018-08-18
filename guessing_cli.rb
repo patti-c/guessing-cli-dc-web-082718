@@ -1,4 +1,7 @@
 def run_guessing_game
+  
+  
+  
   # Generate a random number
   
   random = rand(1..6)
@@ -11,7 +14,8 @@ def run_guessing_game
   # Compare the user's number to the random number
   
   if random == input
-    
+    puts "You guessed the correct numbr!"
+  elsif 
   
   # If the number as been guessed correctly, print correct
   # If not, print the computer's answer
