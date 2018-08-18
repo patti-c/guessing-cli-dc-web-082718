@@ -17,7 +17,7 @@ def run_guessing_game
     elsif input.to_i == random
       puts "You guessed the correct number!"
     else
-      puts "The computer guessed #{random}"
+      puts "The computer guessed #{random}."
     end 
   
 =begin    case input
