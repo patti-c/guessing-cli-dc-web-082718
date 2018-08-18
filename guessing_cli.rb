@@ -14,7 +14,7 @@ def run_guessing_game
     case input
       when "exit"
         puts "Goodbye!"
-        #break
+        break
       when input.to_i == random
         puts "You guessed the correct numbr!"
       else
