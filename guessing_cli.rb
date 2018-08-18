@@ -9,7 +9,7 @@ def run_guessing_game
     # Take input from the command line
     
     puts "Guess a number between 1 and 6"
-    input = gets.chomp
+    input = gets.chomp.to_i
     
     # Compare the user's number to the random number
     
