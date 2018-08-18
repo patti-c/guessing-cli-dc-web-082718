@@ -1,6 +1,6 @@
 def run_guessing_game
   
-  
+  while true
   
   # Generate a random number
   
