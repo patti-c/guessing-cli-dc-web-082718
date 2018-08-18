@@ -1,6 +1,6 @@
 def run_guessing_game
   
-  while true
+  #while true
   
     # Generate a random number
     
@@ -23,6 +23,6 @@ def run_guessing_game
         puts "The computer guessed #{random}"
     end
     
-  end 
+  #end 
   
 end
