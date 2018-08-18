@@ -14,6 +14,8 @@ def run_guessing_game
     # Compare the user's number to the random number
     
     case input
+      when "exit"
+        break
       when random == input
         puts "You guessed the correct numbr!"
       when 
